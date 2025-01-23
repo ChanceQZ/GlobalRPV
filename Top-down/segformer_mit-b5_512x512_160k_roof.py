@@ -34,7 +34,7 @@ model = dict(
     train_cfg=dict(),
     test_cfg=dict(mode='whole'))
 dataset_type = 'SatelliteRoofDataset'
-data_root = '/GPUFS/njnu_ynwen_1/Global_Roof/Data/global_samples/dataset'
+data_root = ''
 img_norm_cfg = dict(
     mean=[123.675, 116.28, 103.53], std=[58.395, 57.12, 57.375], to_rgb=True)
 crop_size = (512, 512)
