@@ -1,1 +1,2 @@
-Codes are coming soon!
+./Top-down: core codes for top-down stage including model training and inference based on MMSegmentation.
+./Bottom-up: core codes for bottom-up stage including random forest training and rooftop area extrapolation.
